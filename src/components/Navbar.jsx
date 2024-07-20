@@ -12,10 +12,10 @@ const Navbar = () => {
             <img src={Logo} alt="logo" className="mx-2 h-20"/>
         </div>
         <div className="m-8 flex item-center justify-center gap-4 text-2xl">
-            <FaLinkedin />
-            <FaGithub />
-            <FaSquareXTwitter />
-            <FaInstagram />
+            <a href="https://www.linkedin.com/in/the-ayush-gupta/" target="_blank"><FaLinkedin /></a>
+            <a href="https://github.com/ayu-g22" target="_blank"><FaGithub /></a>
+            <a href="https://x.com/AyuG225" target="_blank"><FaSquareXTwitter /></a>
+            <a href="https://www.instagram.com/_shhayushh_/" target="_blank"><FaInstagram /></a>
         </div>
     </nav>
   )
